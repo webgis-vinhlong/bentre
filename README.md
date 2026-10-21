@@ -7,7 +7,7 @@ WebGIS tĩnh chạy trên GitHub Pages, tra cứu địa danh cũ/mới, địa 
 | Lớp | Dữ liệu | Nguồn |
 | --- | --- | --- |
 | Lưu trữ (mặc định) | 157 MultiPolygon; mã xã, mã huyện, tên và hình học giữ nguyên tệp đính kèm | [GIS.vn · Bản đồ hành chính Việt Nam trước 01/07](https://gis.vn/ban-do-hanh-chinh-viet-nam-truoc-01-07) |
-| Năm 2025 | 48 địa giới xã/phường; tải theo danh mục `data/ward-boundary-manifest.json` | [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) |
+| Năm 2025 | 48 địa giới xã/phường; bốn gói `data/boundaries-2025-{1..4}.geojson` cùng website, chụp từ nguồn ngày 21/10/2026 | [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) |
 
 Tệp `data/ben-tre-gisvn-before-2025.geojson` là bản sao nguyên byte của **Bến Tre (phường xã) - 63.geojson** do người dùng cung cấp ngày 21/10/2026. Nguồn GIS.vn được ghi theo thông tin người dùng cung cấp. Tệp chứa bộ lưu trữ 157 đơn vị; không gán bộ này cho mốc chuyển tiếp 148 đơn vị hoặc địa giới 48 đơn vị năm 2025.
 
@@ -28,9 +28,9 @@ Không sửa mã gốc, hợp nhất hình học hoặc suy diễn địa giới
 - Tìm theo tên có/không dấu, mã xã hoặc tên đơn vị liên quan năm 2025.
 - Chọn địa giới để xem hồ sơ, mã gốc và nguồn; mở hồ sơ 2025 để chuyển lớp tương ứng.
 - Nguồn hiện ở hồ sơ, dưới bản đồ, ghi công bản đồ và chân trang.
-- Lớp lưu trữ tải một tệp cùng website; lớp 2025 có trạng thái tải và nút thử lại khi nguồn ngoài lỗi.
+- Lớp lưu trữ tải một tệp cùng website; lớp 2025 có trạng thái tải và chỉ thử lại những gói còn thiếu.
 
-Bản đồ sử dụng Vietflex và các lớp cùng hệ Vietflex; Leaflet là phương án dự phòng. Nền hiện tại dùng Google legacy tiles; ghi công nền hiển thị trên bản đồ. Dữ liệu hành chính phục vụ đối chiếu lịch sử.
+Bản đồ sử dụng Vietflex và các lớp cùng hệ Vietflex; Leaflet là phương án dự phòng. Thư viện và CSS được lưu tại `vendor/`; danh mục địa danh được nhúng trong HTML để khởi động độc lập với các yêu cầu tải địa giới. Mỗi yêu cầu dữ liệu có thời hạn chờ 20 giây, kể cả khi nội dung phản hồi bị treo. Việc vẽ polygon được chia theo lượt để giữ giao diện tương tác. Nền hiện tại dùng Google legacy tiles; ghi công nền hiển thị trên bản đồ. Dữ liệu hành chính phục vụ đối chiếu lịch sử.
 
 ## Triển khai và giấy phép
 
