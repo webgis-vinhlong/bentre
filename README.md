@@ -1,28 +1,39 @@
-# Bến Tre Hoài Cổ — Heritage WebGIS
+# WEBGIS XỨ DỪA · Bến Tre
 
-WebGIS tĩnh chủ đề Bến Tre xưa, phong cách xanh hoàng gia, vàng giấy cổ và thiết kế tương thích di động. Dựa trên cảm hứng và danh mục 48 xã/phường trong `ben_tre_dashboard_unified_2025.html` do người sử dụng cung cấp.
+WebGIS tĩnh chạy trên GitHub Pages, tra cứu địa danh cũ/mới, địa giới và lịch sử hình thành. Giao diện ưu tiên bản đồ, hỗ trợ desktop, tablet và bảng trượt trên điện thoại; không cần backend hoặc bước build.
 
-## Chạy website
+## Các lớp địa giới
 
-Trang gốc là `index.html`, dùng Leaflet 1.9.4, OpenStreetMap và CARTO Light qua CDN. Có thể sử dụng GitHub Pages trực tiếp từ nhánh `main`, thư mục `/ (root)` mà không cần npm hoặc backend.
+| Lớp | Dữ liệu | Nguồn |
+| --- | --- | --- |
+| Lưu trữ (mặc định) | 157 MultiPolygon; mã xã, mã huyện, tên và hình học giữ nguyên tệp đính kèm | [GIS.vn · Bản đồ hành chính Việt Nam trước 01/07](https://gis.vn/ban-do-hanh-chinh-viet-nam-truoc-01-07) |
+| Năm 2025 | 48 địa giới xã/phường; tải theo danh mục `data/ward-boundary-manifest.json` | [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) |
 
-**Bật Pages:** Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/ (root)` → Save. Trang được dự kiến xuất bản tại https://webgis-vinhlong.github.io/bentre/ .
+Tệp `data/ben-tre-gisvn-before-2025.geojson` là bản sao nguyên byte của **Bến Tre (phường xã) - 63.geojson** do người dùng cung cấp ngày 21/10/2026. Nguồn GIS.vn được ghi theo thông tin người dùng cung cấp. Tệp chứa bộ lưu trữ 157 đơn vị; không gán bộ này cho mốc chuyển tiếp 148 đơn vị hoặc địa giới 48 đơn vị năm 2025.
 
-## Hiện có
+## Đối chiếu mã
 
-- Bản đồ tương tác với trung tâm tại Bến Tre.
-- Danh mục 48 xã/phường theo tài liệu 2025, tìm kiếm và lọc theo nhóm huyện cũ.
-- Điểm khám phá với tọa độ tham khảo; giao diện responsive.
-- Nội dung lịch sử, di sản và cảnh báo rõ về phạm vi dữ liệu.
+Đối chiếu với `data/archive-157.json` bằng mã xã; khi mã khác nhau, chỉ dùng cặp tên chuẩn hóa và mã huyện. Hai trường hợp được giữ nguyên và giải thích trong hồ sơ:
 
-## Giới hạn dữ liệu
+| Địa danh | Mã trong GeoJSON GIS.vn | Mã trong bảng tra cứu |
+| --- | --- | --- |
+| Phường An Hội | 28771 | 28777 |
+| Xã Phước Ngãi | 29140 | 29137 |
 
-Tên xã/phường trong dashboard gốc không kèm theo polygon địa giới hay tọa độ tâm đáng tin cậy, do đó trang **không vẽ ranh giới hành chính suy đoán**. Bộ `DS_XAPHUONG_FULL.txt` là danh mục dịch vụ ArcGIS REST cũ với URL HTTP; trình duyệt HTTPS có thể chặn mixed content/CORS. Không công bố một lớp thửa đất đang hoạt động khi chưa kiểm chứng tính pháp lý, quyền truy cập, tính toàn vẹn và khả năng phục vụ. Để tích hợp lớp GIS chính xác, chuẩn bị GeoJSON/PMTiles có nguồn, mốc thời gian, giấy phép và tọa độ đã xác minh.
+Không sửa mã nguồn, hợp nhất hình học hoặc suy diễn địa giới 2025 từ các polygon cũ. Cả 157 đối tượng có liên kết tới bảng đối chiếu theo quy tắc trên. Mốc 148 chỉ có thông tin mô tả, chưa có lớp hình học riêng.
 
-## Tích hợp tiếp theo
+## Sử dụng
 
-1. Nhập đầy đủ thông tin `formerUnits`, `deepHistory`, trung tâm phục vụ hành chính từ HTML gốc và đưa sang file JSON phiên bản hóa.
-2. Kết nối PMTiles ranh giới 2025 có kiểm chứng và các bản đồ lịch sử được cấp phép.
-3. Thêm lưu trữ địa danh, ảnh xưa/nay, trích dẫn nguồn từng đối tượng, tải KML/GeoJSON.
+- Đổi **Mốc địa giới** trong bảng tra cứu hoặc nút **157 · Lưu trữ / 48 · Năm 2025** trên bản đồ.
+- Tìm theo tên có/không dấu, mã xã hoặc tên đơn vị liên quan năm 2025.
+- Chọn địa giới để xem hồ sơ, mã gốc và nguồn; mở hồ sơ 2025 để chuyển lớp tương ứng.
+- Nguồn hiện ở hồ sơ, dưới bản đồ, ghi công bản đồ và chân trang.
+- Lớp lưu trữ tải một tệp cùng website; lớp 2025 có trạng thái tải và nút thử lại khi nguồn ngoài lỗi.
 
-**Lưu ý:** Bến Tre cũ thuộc tỉnh Vĩnh Long kể từ sắp xếp đơn vị hành chính cấp tỉnh năm 2025. Nội dung hành chính trên web là dữ liệu đối chiếu lịch sử, không phải nguồn pháp lý hiện hành.
+Bản đồ sử dụng Vietflex và các lớp cùng hệ Vietflex; Leaflet là phương án dự phòng. Nền hiện tại dùng Google legacy tiles; ghi công nền hiển thị trên bản đồ. Dữ liệu hành chính phục vụ đối chiếu lịch sử.
+
+## Triển khai và giấy phép
+
+GitHub Pages: nhánh `main`, thư mục gốc. Trang: https://webgis-vinhlong.github.io/bentre/ . Có thể chạy cục bộ với một HTTP server tĩnh.
+
+Long Ngo @2026. Mã nguồn theo giấy phép MIT. Điều kiện sử dụng dữ liệu và nền bản đồ thuộc từng nguồn; không tự gán MIT cho dữ liệu GIS.vn.
