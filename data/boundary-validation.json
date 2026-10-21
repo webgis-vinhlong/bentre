@@ -1,0 +1,250 @@
+{
+  "source_sha256": "626d492962a119ffb6b1ce4778c461dd5284f221c4e27d4000fc0692dae6b127",
+  "historic_count": 157,
+  "derived_count": 48,
+  "unique_assigned_codes": 157,
+  "max_pair_overlap_degrees2": 0.0,
+  "coverage_difference_degrees2": 0.0,
+  "units": [
+    {
+      "name": "Phường An Hội",
+      "predecessors": 6,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Phường Phú Khương",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Phường Bến Tre",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Phường Sơn Đông",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Phường Phú Tân",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Phú Túc",
+      "predecessors": 7,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Giao Long",
+      "predecessors": 5,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tiên Thủy",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tân Phú",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Phú Phụng",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Vĩnh Thành",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Chợ Lách",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Hưng Khánh Trung",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Phước Mỹ Trung",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tân Thành Bình",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Nhuận Phú Tân",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Mỏ Cày",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Đồng Khởi",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thành Thới",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã An Định",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Hương Mỹ",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Đại Điền",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Quới Điền",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thạnh Phú",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã An Qui",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thạnh Hải",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thạnh Phong",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tân Thủy",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Bảo Thạnh",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tân Xuân",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Ba Tri",
+      "predecessors": 5,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Mỹ Chánh Hòa",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã An Ngãi Trung",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã An Hiệp",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Hưng Nhượng",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Tân Hào",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Giồng Trôm",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Phước Long",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Lương Phú",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Châu Hòa",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Lương Hòa",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Bình Đại",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Lộc Thuận",
+      "predecessors": 4,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Châu Hưng",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Phú Thuận",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thạnh Trị",
+      "predecessors": 3,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thạnh Phước",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    },
+    {
+      "name": "Xã Thới Thuận",
+      "predecessors": 2,
+      "symmetric_difference": 0.0
+    }
+  ]
+}

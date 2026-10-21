@@ -7,7 +7,7 @@ WebGIS tĩnh chạy trên GitHub Pages, tra cứu địa danh cũ/mới, địa 
 | Lớp | Dữ liệu | Nguồn |
 | --- | --- | --- |
 | Lưu trữ (mặc định) | 157 MultiPolygon; mã xã, mã huyện, tên và hình học giữ nguyên tệp đính kèm | [GIS.vn · Bản đồ hành chính Việt Nam trước 01/07](https://gis.vn/ban-do-hanh-chinh-viet-nam-truoc-01-07) |
-| Năm 2025 | 48 địa giới xã/phường; bốn gói `data/boundaries-2025-{1..4}.geojson` cùng website, chụp từ nguồn ngày 21/10/2026 | [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) |
+| Năm 2025 | 48 đường bao hợp nhất từ 157 địa giới tiền thân; bốn gói `data/boundaries-2025-{1..4}.geojson` cùng website | GIS.vn, lớp dẫn xuất theo bảng đối chiếu |
 
 Tệp `data/ben-tre-gisvn-before-2025.geojson` là bản sao nguyên byte của **Bến Tre (phường xã) - 63.geojson** do người dùng cung cấp ngày 21/10/2026. Nguồn GIS.vn được ghi theo thông tin người dùng cung cấp. Tệp chứa bộ lưu trữ 157 đơn vị; không gán bộ này cho mốc chuyển tiếp 148 đơn vị hoặc địa giới 48 đơn vị năm 2025.
 
@@ -20,7 +20,7 @@ Tệp `data/ben-tre-gisvn-before-2025.geojson` là bản sao nguyên byte của 
 | Phường An Hội | 28771 | 28777 |
 | Xã Phước Ngãi | 29140 | 29137 |
 
-Không sửa mã gốc, hợp nhất hình học hoặc suy diễn địa giới 2025 từ các polygon cũ. Cả 157 đối tượng có liên kết tới bảng đối chiếu theo quy tắc trên. Mốc 148 chỉ có thông tin mô tả, chưa có lớp hình học riêng.
+Không sửa mã hoặc tọa độ gốc. Lớp hiển thị 48 được dẫn xuất bằng phép hợp nhất (union) từ cùng 157 polygon cũ theo `data/predecessor-map.json`; đây là lớp đối chiếu sáp nhập, không phải bộ đo đạc pháp lý độc lập năm 2025. Cả 157 đối tượng có liên kết tới bảng đối chiếu theo quy tắc trên. Mốc 148 chỉ có thông tin mô tả, chưa có lớp hình học riêng.
 
 ## Sử dụng
 
@@ -40,8 +40,12 @@ Long Ngo @2026. Mã nguồn theo giấy phép MIT. Điều kiện sử dụng d�
 
 ## So sánh đơn vị tiền thân
 
-Khi chọn một trong 48 đơn vị năm 2025, website giữ viền đơn vị hiện tại và hiển thị các địa giới trong bộ lưu trữ 157 bằng màu riêng, kèm tên cũ và danh sách màu trong hồ sơ. Có nút bật/tắt ranh giới và nhãn; chọn tên cũ để phóng đến địa giới tương ứng. Với các thay đổi trung gian năm 2024, danh sách đơn vị tiền thân trực tiếp được tách khỏi các tên/địa giới lưu trữ cũ hơn. Không hợp nhất hay chỉnh hình học để ép hai lớp trùng nhau.
+Khi chọn một trong 48 đơn vị năm 2025, website giữ viền đơn vị hiện tại và hiển thị các địa giới trong bộ lưu trữ 157 bằng màu riêng, kèm tên cũ và danh sách màu trong hồ sơ. Có nút bật/tắt ranh giới và nhãn; chọn tên cũ để phóng đến địa giới tương ứng. Tên trực tiếp khớp hồ sơ được dùng chung trong danh sách và nhãn; tên lưu trữ cũ hơn vẫn giữ nguyên khi có thay đổi trung gian năm 2024. Mỗi đường bao mới chứa `source_codes`; chính danh sách mã này quyết định các ranh giới tiền thân được hiển thị, tránh dùng hai phép ghép riêng.
 
 Đối chiếu ưu tiên tên cùng huyện từ danh sách tiền thân, sau đó dùng bảng mã để liên kết các tên cũ hơn. Bản ghi 29194 được sửa từ Vĩnh Thành/Chợ Lách sang Tân Phong/Thạnh Phú → Đại Điền theo thuộc tính địa giới gốc và hồ sơ tiền thân. Hình học gốc được giữ nguyên. Nguồn hiển thị trên giao diện rút gọn thành liên kết gis.vn; thông tin nguồn tải và phiên bản vẫn được giữ trong dữ liệu và tài liệu kỹ thuật.
 
 Logo là nguyên ảnh Bến Tre–Đồng Khởi do người dùng cung cấp ngày 21/10/2026, lưu tại assets/logo-bentre.png.
+
+## Tái tạo và kiểm tra hình học
+
+Cài Shapely 2.x rồi chạy `python scripts/build_boundaries.py`. Quy trình kiểm tra đủ 157 mã, mỗi mã thuộc đúng một trong 48 nhóm, hình học hợp lệ, hiệu đối xứng giữa đường bao và hợp các tiền thân, độ phủ toàn vùng và chồng lấn giữa các nhóm. Kết quả ở `data/boundary-validation.json`. Không dịch chuyển, co giãn, snap hoặc làm trơn tọa độ để khớp nền Google. Dữ liệu nguồn 2025 cũ trong `data/wards-2025/` và manifest chỉ được giữ để truy nguyên; không dùng để vẽ.

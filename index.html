@@ -143,7 +143,7 @@ async function ensureCurrentData(){
  currentDataPromise=(async()=>{
   const missing=[1,2,3,4].filter(n=>!loadedParts.has(n));
   const results=await Promise.allSettled(missing.map(async n=>{
-   const data=await fetchJSON('./data/boundaries-2025-'+n+'.geojson?v=20261021-local1');
+   const data=await fetchJSON('./data/boundaries-2025-'+n+'.geojson?v=20261021-union1');
    if(!Array.isArray(data.features)||data.features.length!==12)throw Error('Gói địa giới không đầy đủ');
    const valid=[];for(const f of data.features){const name=f.properties?._unit_name;if(!units.some(u=>u.name===name)||!['Polygon','MultiPolygon'].includes(f.geometry?.type))throw Error('Địa giới không khớp danh mục');valid.push([name,f])}
    for(const [name,f] of valid)polygonFeatures.set(name,f);loadedParts.add(n);updateHealth();
@@ -320,7 +320,8 @@ function focusAncestor(code,zoom=true){
 async function drawAncestorBoundaries(u,request){
  try{
   await loadHistoric();if(request!==boundaryRequest||activeEra!=='current'||selectedName!==u.name)return;
-  const features=historicUnits.filter(f=>normalizeName(historicMapping(f)?.currentUnit)===normalizeName(u.name)).sort((a,b)=>{const rank=f=>{const i=(u.formerUnits||[]).indexOf(predecessorFor(u,f));return i<0?999:i};return rank(a)-rank(b)||historicName(a).localeCompare(historicName(b),'vi')});
+  const sourceCodes=polygonFeatures.get(u.name)?.properties?.source_codes;
+  const features=(sourceCodes?sourceCodes.map(code=>historicByCode.get(String(code))).filter(Boolean):historicUnits.filter(f=>normalizeName(historicMapping(f)?.currentUnit)===normalizeName(u.name))).sort((a,b)=>{const rank=f=>{const i=(u.formerUnits||[]).indexOf(predecessorFor(u,f));return i<0?999:i};return rank(a)-rank(b)||historicName(a).localeCompare(historicName(b),'vi')});
   const list=$('ancestorList');if(!list)return;list.replaceChildren();ancestorGroup.clearLayers();ancestorMeta.clear();
   if(!features.length){list.append(el('p','loading-ancestors','Chưa tải được ranh giới cũ. Chọn Thử tải lại.'));return}
   for(let i=0;i<features.length;i++){
