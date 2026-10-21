@@ -41,7 +41,7 @@ async function loadAllBoundaries(){
   const manifest=await result.json();boundaryManifest=new Map(manifest.features.filter(x=>x.url).map(x=>[x.name,x.url]));
   const records=[...boundaryManifest.entries()];let cursor=0,ok=0;const load=async()=>{
    while(cursor<records.length){const [name,url]=records[cursor++];
-    try{const r=await fetch(url);if(!r.ok)throw Error('HTTP '+r.status);const fc=await r.json();const feat=fc.features?.find(x=>['Polygon','MultiPolygon'].includes(x.geometry?.type));
+    try{const feat=await fetchWardGeometry(name);
       if(!feat)continue;polygonFeatures.set(name,feat);const g=L.geoJSON(feat,{style:boundaryStyle(name)});const item=units.find(x=>x.name===name);if(item)attachHistoryPopup(g,item);g.eachLayer(l=>{l.on('click',()=>{if(item){$('search').value=item.name;render();const row=[...document.querySelectorAll('.unit')].find(x=>x.querySelector('strong')?.textContent===name);if(row)selectUnit(item,row)}});l.bindTooltip(name,{sticky:true})});boundaryGroup.addLayer(g);applyStripe(g,false);ok++;
       $('boundaryHealth').textContent='Địa giới GIS '+ok+'/48';
     }catch(e){console.warn('Boundary fetch failed:',name,e)}
@@ -51,10 +51,11 @@ async function loadAllBoundaries(){
   if(ok){try{const bounds=boundaryGroup.getBounds();if(bounds.isValid()&&!window.__benTreUserSelected)map.fitBounds(bounds,{padding:[22,22],maxZoom:10});}catch(viewError){console.warn('Không thể tự điều chỉnh khung nhìn',viewError)}}
  }catch(e){$('boundaryHealth').textContent=loadedBoundaries?'Đã tải '+loadedBoundaries+'/48 địa giới · một phần dữ liệu lỗi':'Lỗi nạp danh mục địa giới GIS';console.error(e)}
 }
+async function fetchWardGeometry(name){const original=boundaryManifest.get(name);if(!original)throw Error('Không có đường dẫn GeoJSON cho '+name);const fallback=original.replace('https://raw.githubusercontent.com/','https://cdn.jsdelivr.net/gh/').replace('/master/','@master/');let lastError;for(const url of [original,fallback]){try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),18000);let response;try{response=await fetch(url,{signal:controller.signal,cache:'force-cache'})}finally{clearTimeout(timer)}if(!response.ok)throw Error('HTTP '+response.status);const json=await response.json();const polygon=json.features?.find(x=>['Polygon','MultiPolygon'].includes(x.geometry?.type));if(!polygon)throw Error('Không có Polygon/MultiPolygon');if(polygon.properties?.fullName&&normalizeName(polygon.properties.fullName)!==normalizeName(name))throw Error('Tên trong GeoJSON không khớp');polygonFeatures.set(name,polygon);return polygon}catch(e){lastError=e}}throw lastError||Error('Không thể tải địa giới')}
 async function drawBoundary(u){
- ++boundaryRequest;window.__benTreUserSelected=true;if(currentPolygon){map.removeLayer(currentPolygon);currentPolygon=null}
+ const request=++boundaryRequest;window.__benTreUserSelected=true;if(currentPolygon){map.removeLayer(currentPolygon);currentPolygon=null}
  let feature=polygonFeatures.get(u.name);
- if(!feature){$('info').textContent='Địa giới '+u.name+' chưa tải được. Không tự vẽ ranh giới phỏng đoán.';return}
+ if(!feature){$('info').textContent='Đang tải địa giới '+u.name+'…';try{feature=await fetchWardGeometry(u.name)}catch(e){if(request===boundaryRequest)$('info').textContent='Không tải được địa giới '+u.name+'. '+e.message;return}if(request!==boundaryRequest)return}
  currentPolygon=loadUnitPolygon(u);if(!currentPolygon)return;currentPolygon.addTo(map).bringToFront();applyStripe(currentPolygon,true);map.fitBounds(currentPolygon.getBounds(),{padding:[36,36],maxZoom:13});const popup=popupHistory(u);L.popup({maxWidth:360,minWidth:265,autoPan:true}).setLatLng(currentPolygon.getBounds().getCenter()).setContent(popup).openOn(map);
  $('info').textContent='Đang xem '+u.name+' · Polygon GeoJSON từ thanglequoc/vietnamese-provinces-database. Ranh giới tham khảo cần đối chiếu với nguồn pháp lý.';
 }
