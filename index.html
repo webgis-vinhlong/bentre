@@ -177,9 +177,9 @@ async function drawBoundary(u){
   const feature=await fetchWardGeometry(u.name);addBoundary(u.name,feature);updateHealth();
   if(request!==boundaryRequest)return;
   currentPolygon=loadUnitPolygon(u);currentPolygon.addTo(map).bringToFront();applyStripe(currentPolygon,true);
-  fitMapBounds(currentPolygon.getBounds(),{padding:[30,30],maxZoom:13,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});
+  if(historicState!=='ready')fitSelection();
   requestAnimationFrame(()=>{if(currentPolygon&&request===boundaryRequest)applyStripe(currentPolygon,true)});
-  $('info').textContent='Đang xem '+u.name;await drawAncestorBoundaries(u,request);
+  $('info').textContent='Đang xem '+u.name;await drawAncestorBoundaries(u,request);if(request===boundaryRequest)fitSelection();
  }catch(e){if(request===boundaryRequest){$('info').textContent='Chưa tải được địa giới '+u.name+'. Hồ sơ vẫn có thể xem; chọn Thử tải lại trong hồ sơ.';updateHealth()}}
 }
 function sheet(open){document.querySelector('.shell').classList.toggle('sheet-open',open);$('openSheet').setAttribute('aria-expanded',String(open));requestAnimationFrame(()=>map.invalidateSize())}
@@ -187,9 +187,9 @@ function showList(){document.querySelector('.shell').classList.remove('profile-m
 function selectUnit(u){
  if(activeEra!=='current'){setEra('current',false)}showAncestors=true;showAncestorLabels=true;document.querySelector('.shell').classList.add('profile-map');document.querySelector('.shell').classList.remove('profile-expanded');selectedName=u.name;document.querySelector('.sidebar').classList.add('profile-open');timeline(u);
  const actions=el('div','detail-actions');const back=el('button','','← Danh sách');back.onclick=showList;
- const view=el('button','','Xem bản đồ');view.onclick=()=>{sheet(false);if(currentPolygon)fitMapBounds(currentPolygon.getBounds(),{padding:[24,24],maxZoom:13});$('map').focus()};
+ const view=el('button','','Xem bản đồ');view.onclick=()=>{sheet(false);if(currentPolygon)fitSelection();$('map').focus()};
  const retry=el('button','','Thử tải lại');retry.onclick=()=>drawBoundary(u);
- const expand=el('button','expand-profile','Mở rộng');expand.setAttribute('aria-expanded','false');expand.onclick=()=>{const on=document.querySelector('.shell').classList.toggle('profile-expanded');expand.setAttribute('aria-expanded',String(on));expand.textContent=on?'Thu gọn':'Mở rộng';if(currentPolygon)fitMapBounds(currentPolygon.getBounds(),{padding:[24,24],maxZoom:13})};actions.append(back,view,expand,retry);$('detail').prepend(actions);$('detail').hidden=false;
+ const expand=el('button','expand-profile','Mở rộng');expand.setAttribute('aria-expanded','false');expand.onclick=()=>{const on=document.querySelector('.shell').classList.toggle('profile-expanded');expand.setAttribute('aria-expanded',String(on));expand.textContent=on?'Thu gọn':'Mở rộng';if(currentPolygon)fitSelection()};actions.append(back,view,expand,retry);$('detail').prepend(actions);$('detail').hidden=false;
  $('clearSelection').hidden=false;render();drawBoundary(u);sheet(true);
  back.focus();
 }
@@ -298,6 +298,7 @@ function setSourceCredit(){
 setSourceCredit();
 
 
+function fitSelection(){if(!currentPolygon)return;const bounds=currentPolygon.getBounds();if(showAncestors)for(const meta of ancestorMeta.values())bounds.extend(meta.layer.getBounds());fitMapBounds(bounds,{paddingTopLeft:[30,170],paddingBottomRight:[30,30],maxZoom:13,animate:false})}
 function clearAncestors(){ancestorGroup.clearLayers();ancestorMeta.clear();focusedAncestor='';$('ancestorTools').hidden=true;$('ancestorLegend').hidden=true}
 function ancestorStyle(meta,focused=false){return {color:meta.color,weight:focused?4:2.2,fillColor:meta.color,fillOpacity:focused?Math.min(.55,Number($('stripeOpacity').value)/100*.7):Number($('stripeOpacity').value)/100*.45,opacity:1,className:'ancestor-boundary'}}
 function updateAncestorLabels(){
