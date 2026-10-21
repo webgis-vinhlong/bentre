@@ -20,7 +20,7 @@ Tệp `data/ben-tre-gisvn-before-2025.geojson` là bản sao nguyên byte của 
 | Phường An Hội | 28771 | 28777 |
 | Xã Phước Ngãi | 29140 | 29137 |
 
-Không sửa mã nguồn, hợp nhất hình học hoặc suy diễn địa giới 2025 từ các polygon cũ. Cả 157 đối tượng có liên kết tới bảng đối chiếu theo quy tắc trên. Mốc 148 chỉ có thông tin mô tả, chưa có lớp hình học riêng.
+Không sửa mã gốc, hợp nhất hình học hoặc suy diễn địa giới 2025 từ các polygon cũ. Cả 157 đối tượng có liên kết tới bảng đối chiếu theo quy tắc trên. Mốc 148 chỉ có thông tin mô tả, chưa có lớp hình học riêng.
 
 ## Sử dụng
 
