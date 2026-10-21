@@ -20,20 +20,28 @@ try{if(window.Vietflex?.vietflexMap){map=Vietflex.vietflexMap('map',{useLegacyGo
 if(!map){map=L.map('map',{zoomControl:false,attributionControl:true});}
 map.setView([10.18,106.43],10);map.setMaxBounds(BEN_TRE_BOUNDS);map.options.maxBoundsViscosity=1;map.setMinZoom(7);
 if(mapEngine==='Vietflex'&&window.Vietflex.ZoomControl){new Vietflex.ZoomControl({position:'bottomright'}).addTo(map)}else L.control.zoom({position:'bottomright'}).addTo(map);
-const bases={osm:L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}),relief:L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'© OpenStreetMap · © CARTO'})};
+// Keep all layers in the same engine; Vietflex and Leaflet have separate geometry classes.
+const GIS=mapEngine==='Vietflex'?{
+ tileLayer:(url,options)=>new Vietflex.TileLayer(url,options),
+ layerGroup:()=>new Vietflex.LayerGroup(),featureGroup:()=>new Vietflex.FeatureGroup(),
+ marker:(latlng,options)=>new Vietflex.Marker(latlng,options),divIcon:options=>new Vietflex.DivIcon(options),
+ geoJSON:(data,options)=>new Vietflex.GeoJSON(data,options),
+ control:{scale:options=>new Vietflex.ScaleControl(options)}
+}:L;
+const bases={osm:GIS.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}),relief:GIS.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'© OpenStreetMap · © CARTO'})};
 let base=null;if(mapEngine!=='Vietflex')base=bases.osm.addTo(map);
 function fitMapBounds(bounds,options={}){
  const corners=Array.isArray(bounds)?bounds:[[bounds.getSouthWest().lat,bounds.getSouthWest().lng],[bounds.getNorthEast().lat,bounds.getNorthEast().lng]];
  map.fitBounds(corners,options);
 }
 const places=[['Trung tâm Bến Tre',10.237,106.375,'Dấu ấn đô thị bên sông'],['Chợ Lách',10.26,106.118,'Miệt vườn và hoa kiểng'],['Ba Tri',10.04,106.60,'Miền đất văn hóa ven biển'],['Bình Đại',10.18,106.70,'Vùng cù lao và cửa sông'],['Mỏ Cày',10.12,106.33,'Không gian ký ức Đồng Khởi'],['Thạnh Phú',9.93,106.48,'Vùng ven biển xứ Dừa'],['Giồng Trôm',10.15,106.50,'Làng quê sông nước'],['Châu Thành',10.30,106.29,'Cảnh quan vườn xanh']];
-const layer=L.layerGroup().addTo(map);for(const [n,lat,lon,desc] of places){L.marker([lat,lon],{title:n,alt:n,icon:L.divIcon({html:'<div class="pin">✦</div>',className:'',iconSize:[29,29],iconAnchor:[14,14]})}).bindPopup('<b>'+n+'</b><p>'+desc+'</p><small>Vị trí trung tâm tham khảo</small>').addTo(layer)}
-L.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
+const layer=GIS.layerGroup().addTo(map);for(const [n,lat,lon,desc] of places){GIS.marker([lat,lon],{title:n,alt:n,icon:GIS.divIcon({html:'<div class="pin">✦</div>',className:'',iconSize:[29,29],iconAnchor:[14,14]})}).bindPopup('<b>'+n+'</b><p>'+desc+'</p><small>Vị trí trung tâm tham khảo</small>').addTo(layer)}
+GIS.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
 const el=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e};
 function timeline(u){const root=$('detail');root.replaceChildren(el('div','kicker','Hồ sơ hành chính · 2025'),el('h3','',u.name));const grid=el('div','timelinegrid');const before=el('div','tstep'),after=el('div','tstep');before.append(el('strong','','TRƯỚC 01/07/2025'),el('p','','Các đơn vị tiền thân:'));const ul=el('ul');for(const v of u.formerUnits||[])ul.append(el('li','',v.name+' · '+v.district));before.append(ul);after.append(el('strong','','TỪ 01/07/2025'),el('p','',u.name+' hình thành từ '+(u.formerUnits||[]).length+' đơn vị theo hồ sơ chuyển đổi 2025.'),el('p','','Khu vực cấp huyện cũ: '+u.group),el('p','','Trung tâm hành chính theo tư liệu: '+(u.address||'Chưa có thông tin')));grid.append(before,after);root.append(grid);for(const note of u.deepHistory||[])root.append(el('div','histnote','Mốc lịch sử: '+note));root.append(el('div','boundarynote','◈ Ranh giới được kiểm tra từ dữ liệu địa giới số; nếu không khớp tên và cấp hành chính, hệ thống sẽ không vẽ thay thế.'));}
 function findBoundaryFeature(fc,u){if(!fc||!Array.isArray(fc.features))return null;return fc.features.find(f=>{const p=f.properties||{};const n=p.name||p.ten_xa||p.TenXa||p.NAME_3||p.ten||p.unit_name;return n&&normalizeName(n)===normalizeName(u.name)&&['Polygon','MultiPolygon'].includes(f.geometry?.type)})||null}
 map.createPane('benTreBoundaryPane');map.getPane('benTreBoundaryPane').style.zIndex='430';map.createPane('benTreHighlightPane');map.getPane('benTreHighlightPane').style.zIndex='440';map.getPane('benTreHighlightPane').style.pointerEvents='none';
-let boundaryManifest=new Map(),polygonFeatures=new Map(),boundaryGroup=L.featureGroup().addTo(map),loadedBoundaries=0;
+let boundaryManifest=new Map(),polygonFeatures=new Map(),boundaryGroup=GIS.featureGroup().addTo(map),loadedBoundaries=0;
 function boundaryStyle(name,selected=false){return {color:selected?'#d5a122':'#daba62',weight:selected?3.5:2,fillColor:selected?'#f8c7c7':'#fff6dd',fillOpacity:selected?.45:.13,opacity:1,className:'historic-boundary'}}
 // SVG patterns are scoped to their OWN SVG. The boundary and highlight panes have distinct SVG roots.
 function ensureStripePattern(svg){
@@ -64,12 +72,12 @@ function applyStripe(layer,focused=false){
 }
 function popupHistory(u){const box=el('div','historic-popup');box.append(el('div','popup-kicker','LỊCH SỬ HÀNH CHÍNH · BẾN TRE'),el('h3','',u.name));const old=el('div','popup-step');old.append(el('strong','','TRƯỚC 01/07/2025'));const list=el('ul');for(const f of u.formerUnits||[])list.append(el('li','',f.name+' · '+f.district));old.append(list);box.append(old);const now=el('div','popup-step');now.append(el('strong','','TỪ 01/07/2025'),el('p','',u.name+' · '+(u.formerUnits?.length||0)+' đơn vị tiền thân'));box.append(now);for(const note of u.deepHistory||[])box.append(el('p','popup-note',note));box.append(el('small','','Nguồn: hồ sơ hành chính đính kèm · Địa giới GeoJSON tham khảo'));return box;}
 function attachHistoryPopup(layer,u){ /* Selection opens the shared accessible profile panel. */ }
-function loadUnitPolygon(u){const feature=polygonFeatures.get(u.name);if(!feature)return null;const layer=L.geoJSON(feature,{pane:'benTreHighlightPane',style:boundaryStyle(u,true),interactive:false});layer.on('add',()=>requestAnimationFrame(()=>applyStripe(layer,true)));return layer;}
+function loadUnitPolygon(u){const feature=polygonFeatures.get(u.name);if(!feature)return null;const layer=GIS.geoJSON(feature,{pane:'benTreHighlightPane',style:boundaryStyle(u,true),interactive:false});layer.on('add',()=>requestAnimationFrame(()=>applyStripe(layer,true)));return layer;}
 
 function addBoundary(name,feat){
  if(boundaryLayers.has(name))return;
  const item=units.find(u=>u.name===name);
- const group=L.geoJSON(feat,{pane:'benTreBoundaryPane',style:boundaryStyle(name)});
+ const group=GIS.geoJSON(feat,{pane:'benTreBoundaryPane',style:boundaryStyle(name)});
  group.eachLayer(ward=>{
   ward.bindTooltip(name,{sticky:true,direction:'top',opacity:.97,className:'ben-tre-ward-tooltip'});
   ward.on('mouseover',()=>ward.setStyle({color:'#bd811c',weight:3,fillColor:'#f7d9ba',fillOpacity:.27}));
