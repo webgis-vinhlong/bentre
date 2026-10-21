@@ -22,6 +22,10 @@ map.setView([10.18,106.43],10);map.setMaxBounds(BEN_TRE_BOUNDS);map.options.maxB
 if(mapEngine==='Vietflex'&&window.Vietflex.ZoomControl){new Vietflex.ZoomControl({position:'bottomright'}).addTo(map)}else L.control.zoom({position:'bottomright'}).addTo(map);
 const bases={osm:L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}),relief:L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'© OpenStreetMap · © CARTO'})};
 let base=null;if(mapEngine!=='Vietflex')base=bases.osm.addTo(map);
+function fitMapBounds(bounds,options={}){
+ const corners=Array.isArray(bounds)?bounds:[[bounds.getSouthWest().lat,bounds.getSouthWest().lng],[bounds.getNorthEast().lat,bounds.getNorthEast().lng]];
+ map.fitBounds(corners,options);
+}
 const places=[['Trung tâm Bến Tre',10.237,106.375,'Dấu ấn đô thị bên sông'],['Chợ Lách',10.26,106.118,'Miệt vườn và hoa kiểng'],['Ba Tri',10.04,106.60,'Miền đất văn hóa ven biển'],['Bình Đại',10.18,106.70,'Vùng cù lao và cửa sông'],['Mỏ Cày',10.12,106.33,'Không gian ký ức Đồng Khởi'],['Thạnh Phú',9.93,106.48,'Vùng ven biển xứ Dừa'],['Giồng Trôm',10.15,106.50,'Làng quê sông nước'],['Châu Thành',10.30,106.29,'Cảnh quan vườn xanh']];
 const layer=L.layerGroup().addTo(map);for(const [n,lat,lon,desc] of places){L.marker([lat,lon],{title:n,alt:n,icon:L.divIcon({html:'<div class="pin">✦</div>',className:'',iconSize:[29,29],iconAnchor:[14,14]})}).bindPopup('<b>'+n+'</b><p>'+desc+'</p><small>Vị trí trung tâm tham khảo</small>').addTo(layer)}
 L.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
@@ -98,7 +102,7 @@ async function loadAllBoundaries(){
   await ensureManifest();const remaining=units.filter(u=>!boundaryLayers.has(u.name));let cursor=0;
   async function worker(){while(cursor<remaining.length){const u=remaining[cursor++];try{const feature=await fetchWardGeometry(u.name);addBoundary(u.name,feature)}catch(e){failedBoundaries.add(u.name);console.warn('Không tải được địa giới',u.name,e)}updateHealth()}}
   await Promise.all(Array.from({length:Math.min(6,remaining.length)},worker));
-  if(boundaryGroup.getLayers().length&&!window.__benTreUserSelected)map.fitBounds(boundaryGroup.getBounds(),{padding:[24,24],maxZoom:10});
+  if(boundaryGroup.getLayers().length&&!window.__benTreUserSelected)fitMapBounds(boundaryGroup.getBounds(),{padding:[24,24],maxZoom:10});
  }catch(e){$('info').textContent=e.message}
  finally{boundaryLoading=false;updateHealth()}
 }
@@ -125,7 +129,7 @@ async function drawBoundary(u){
   const feature=await fetchWardGeometry(u.name);addBoundary(u.name,feature);updateHealth();
   if(request!==boundaryRequest)return;
   currentPolygon=loadUnitPolygon(u);currentPolygon.addTo(map).bringToFront();applyStripe(currentPolygon,true);
-  map.fitBounds(currentPolygon.getBounds(),{padding:[30,30],maxZoom:13,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});
+  fitMapBounds(currentPolygon.getBounds(),{padding:[30,30],maxZoom:13,animate:!matchMedia('(prefers-reduced-motion: reduce)').matches});
   requestAnimationFrame(()=>{if(currentPolygon&&request===boundaryRequest)applyStripe(currentPolygon,true)});
   $('info').textContent='Đang xem '+u.name+' · Địa giới tham khảo, mốc dữ liệu 2025.';
  }catch(e){if(request===boundaryRequest){$('info').textContent='Chưa tải được địa giới '+u.name+'. Hồ sơ vẫn có thể xem; chọn Thử tải lại trong hồ sơ.';updateHealth()}}
@@ -168,7 +172,7 @@ document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.datase
 $('search').oninput=render;$('district').onchange=render;
 $('openSheet').onclick=showList;$('closeSheet').onclick=()=>{sheet(false);$('openSheet').focus()};
 $('navMap').onclick=()=>sheet(false);
-$('overview').onclick=()=>{sheet(false);map.fitBounds(boundaryGroup.getLayers().length?boundaryGroup.getBounds():BEN_TRE_BOUNDS,{padding:[24,24],maxZoom:10})};
+$('overview').onclick=()=>{sheet(false);fitMapBounds(boundaryGroup.getLayers().length?boundaryGroup.getBounds():BEN_TRE_BOUNDS,{padding:[24,24],maxZoom:10})};
 $('clearSelection').onclick=()=>{++boundaryRequest;selectedName='';document.querySelector('.sidebar').classList.remove('profile-open');if(currentPolygon){map.removeLayer(currentPolygon);currentPolygon=null}map.closePopup();$('detail').hidden=true;$('clearSelection').hidden=true;$('info').textContent='Chọn địa danh để xem ranh giới và hồ sơ.';render()};
 $('togglePlaces').onclick=()=>{const visible=map.hasLayer(layer);if(visible)map.removeLayer(layer);else layer.addTo(map);$('togglePlaces').setAttribute('aria-pressed',String(!visible))};
 $('stripeOpacity').oninput=()=>{if(currentPolygon)applyStripe(currentPolygon,true)};
