@@ -1,1 +1,1415 @@
-[{"maHuyen": "829", "maXa": "28756", "name": "Phường Phú Khương", "district": "Thành phố Bến Tre", "currentUnit": "Phường Phú Khương", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28757", "name": "Phường Phú Tân", "district": "Thành phố Bến Tre", "currentUnit": "Phường Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28759", "name": "Phường 8", "district": "Thành phố Bến Tre", "currentUnit": "Phường Phú Khương", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28762", "name": "Phường 6", "district": "Thành phố Bến Tre", "currentUnit": "Phường Sơn Đông", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28765", "name": "Phường 4", "district": "Thành phố Bến Tre", "currentUnit": "Phường An Hội", "routeNote": "qua lớp 148 theo NQ 1237/2024 rồi đến 48 đơn vị năm 2025", "mapped": true}, {"maHuyen": "829", "maXa": "28768", "name": "Phường 5", "district": "Thành phố Bến Tre", "currentUnit": "Phường An Hội", "routeNote": "qua lớp 148 theo NQ 1237/2024 rồi đến 48 đơn vị năm 2025", "mapped": true}, {"maHuyen": "829", "maXa": "28777", "name": "Phường An Hội", "district": "Thành phố Bến Tre", "currentUnit": "Phường An Hội", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28780", "name": "Phường 7", "district": "Thành phố Bến Tre", "currentUnit": "Phường Bến Tre", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28783", "name": "xã Sơn Đông", "district": "Thành phố Bến Tre", "currentUnit": "Phường Sơn Đông", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28786", "name": "xã Phú Hưng", "district": "Thành phố Bến Tre", "currentUnit": "Phường Phú Khương", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28789", "name": "xã Bình Phú", "district": "Thành phố Bến Tre", "currentUnit": "Phường Bến Tre", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28792", "name": "xã Mỹ Thạnh An", "district": "Thành phố Bến Tre", "currentUnit": "Phường An Hội", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28795", "name": "xã Nhơn Thạnh", "district": "Thành phố Bến Tre", "currentUnit": "Phường Phú Khương", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "829", "maXa": "28798", "name": "xã Phú Nhuận", "district": "Thành phố Bến Tre", "currentUnit": "Phường An Hội", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28801", "name": "Thị trấn Châu Thành", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28804", "name": "xã Tân Thạch", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28807", "name": "xã Quới Sơn", "district": "Châu Thành", "currentUnit": "Xã Giao Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28810", "name": "xã An Khánh", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "qua lớp 148: An Khánh nhập thị trấn Châu Thành (2024), sau đó vào Phú Túc (2025)", "mapped": true}, {"maHuyen": "831", "maXa": "28813", "name": "xã Giao Long", "district": "Châu Thành", "currentUnit": "Xã Giao Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28819", "name": "xã Phú Túc", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28822", "name": "xã Phú Đức", "district": "Châu Thành", "currentUnit": "Xã Tân Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28825", "name": "xã Phú An Hòa", "district": "Châu Thành", "currentUnit": "Xã Giao Long", "routeNote": "qua lớp 148: Phú An Hòa nhập An Phước (2024), sau đó vào Giao Long (2025)", "mapped": true}, {"maHuyen": "831", "maXa": "28828", "name": "xã An Phước", "district": "Châu Thành", "currentUnit": "Xã Giao Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28831", "name": "xã Tam Phước", "district": "Châu Thành", "currentUnit": "Phường Sơn Đông", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28834", "name": "xã Thành Triệu", "district": "Châu Thành", "currentUnit": "Xã Tiên Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28837", "name": "xã Tường Đa", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28840", "name": "xã Tân Phú", "district": "Châu Thành", "currentUnit": "Xã Tân Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28843", "name": "xã Quới Thành", "district": "Châu Thành", "currentUnit": "Xã Tiên Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28846", "name": "xã Phước Thạnh", "district": "Châu Thành", "currentUnit": "Phường Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28849", "name": "xã An Hóa", "district": "Châu Thành", "currentUnit": "Xã Giao Long", "routeNote": "qua lớp 148: An Hóa nhập An Phước (2024), sau đó vào Giao Long (2025)", "mapped": true}, {"maHuyen": "831", "maXa": "28852", "name": "xã Tiên Long", "district": "Châu Thành", "currentUnit": "Xã Tân Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28855", "name": "xã An Hiệp", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "qua lớp 148: An Hiệp nhập Tường Đa (2024), sau đó vào Phú Túc (2025)", "mapped": true}, {"maHuyen": "831", "maXa": "28858", "name": "xã Hữu Định", "district": "Châu Thành", "currentUnit": "Phường Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28861", "name": "Thị trấn Tiên Thủy", "district": "Châu Thành", "currentUnit": "Xã Tiên Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "831", "maXa": "28864", "name": "xã Sơn Hòa", "district": "Châu Thành", "currentUnit": "Xã Phú Túc", "routeNote": "qua lớp 148: Sơn Hòa nhập Tường Đa (2024), sau đó vào Phú Túc (2025)", "mapped": true}, {"maHuyen": "832", "maXa": "28870", "name": "Thị trấn Chợ Lách", "district": "Chợ Lách", "currentUnit": "Xã Chợ Lách", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28873", "name": "xã Phú Phụng", "district": "Chợ Lách", "currentUnit": "Xã Phú Phụng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28876", "name": "xã Sơn Định", "district": "Chợ Lách", "currentUnit": "Xã Phú Phụng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28879", "name": "xã Vĩnh Bình", "district": "Chợ Lách", "currentUnit": "Xã Phú Phụng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28882", "name": "xã Hòa Nghĩa", "district": "Chợ Lách", "currentUnit": "Xã Chợ Lách", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28885", "name": "xã Long Thới", "district": "Chợ Lách", "currentUnit": "Xã Chợ Lách", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28888", "name": "xã Phú Sơn", "district": "Chợ Lách", "currentUnit": "Xã Vĩnh Thành", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28891", "name": "xã Tân Thiềng", "district": "Chợ Lách", "currentUnit": "Xã Vĩnh Thành", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28894", "name": "xã Vĩnh Thành", "district": "Chợ Lách", "currentUnit": "Xã Vĩnh Thành", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28897", "name": "xã Vĩnh Hòa", "district": "Chợ Lách", "currentUnit": "Xã Hưng Khánh Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "832", "maXa": "28900", "name": "xã Hưng Khánh Trung B", "district": "Chợ Lách", "currentUnit": "Xã Hưng Khánh Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28903", "name": "Thị trấn Mỏ Cày", "district": "Mỏ Cày Nam", "currentUnit": "Xã Mỏ Cày", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28930", "name": "xã Định Thủy", "district": "Mỏ Cày Nam", "currentUnit": "Xã Đồng Khởi", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28939", "name": "xã Đa Phước Hội", "district": "Mỏ Cày Nam", "currentUnit": "Xã Mỏ Cày", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28940", "name": "xã Tân Hội", "district": "Mỏ Cày Nam", "currentUnit": "Xã Mỏ Cày", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28942", "name": "xã Phước Hiệp", "district": "Mỏ Cày Nam", "currentUnit": "Xã Đồng Khởi", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28945", "name": "xã Bình Khánh", "district": "Mỏ Cày Nam", "currentUnit": "Xã Đồng Khởi", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28951", "name": "xã An Thạnh", "district": "Mỏ Cày Nam", "currentUnit": "Xã Mỏ Cày", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28957", "name": "xã An Định", "district": "Mỏ Cày Nam", "currentUnit": "Xã An Định", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28960", "name": "xã Thành Thới B", "district": "Mỏ Cày Nam", "currentUnit": "Xã Thành Thới", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28963", "name": "xã Tân Trung", "district": "Mỏ Cày Nam", "currentUnit": "Xã An Định", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28966", "name": "xã An Thới", "district": "Mỏ Cày Nam", "currentUnit": "Xã Thành Thới", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28969", "name": "xã Thành Thới A", "district": "Mỏ Cày Nam", "currentUnit": "Xã Thành Thới", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28972", "name": "xã Minh Đức", "district": "Mỏ Cày Nam", "currentUnit": "Xã An Định", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28975", "name": "xã Ngãi Đăng", "district": "Mỏ Cày Nam", "currentUnit": "Xã Hương Mỹ", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28978", "name": "xã Cẩm Sơn", "district": "Mỏ Cày Nam", "currentUnit": "Xã Hương Mỹ", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "833", "maXa": "28981", "name": "xã Hương Mỹ", "district": "Mỏ Cày Nam", "currentUnit": "Xã Hương Mỹ", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "28984", "name": "Thị trấn Giồng Trôm", "district": "Giồng Trôm", "currentUnit": "Xã Giồng Trôm", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "28987", "name": "xã Phong Nẫm", "district": "Giồng Trôm", "currentUnit": "Xã Lương Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "28993", "name": "xã Mỹ Thạnh", "district": "Giồng Trôm", "currentUnit": "Xã Lương Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "28996", "name": "xã Châu Hòa", "district": "Giồng Trôm", "currentUnit": "Xã Châu Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "28999", "name": "xã Lương Hòa", "district": "Giồng Trôm", "currentUnit": "Xã Lương Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29002", "name": "xã Lương Quới", "district": "Giồng Trôm", "currentUnit": "Xã Châu Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29005", "name": "xã Lương Phú", "district": "Giồng Trôm", "currentUnit": "Xã Lương Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29008", "name": "xã Châu Bình", "district": "Giồng Trôm", "currentUnit": "Xã Châu Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29011", "name": "xã Thuận Điền", "district": "Giồng Trôm", "currentUnit": "Xã Lương Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29014", "name": "xã Sơn Phú", "district": "Giồng Trôm", "currentUnit": "Phường An Hội", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29017", "name": "xã Bình Hoà", "district": "Giồng Trôm", "currentUnit": "Xã Giồng Trôm", "routeNote": "trực tiếp theo chuỗi sáp nhập, khác biệt do chính tả nguồn", "mapped": true}, {"maHuyen": "834", "maXa": "29020", "name": "xã Phước Long", "district": "Giồng Trôm", "currentUnit": "Xã Phước Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29023", "name": "xã Hưng Phong", "district": "Giồng Trôm", "currentUnit": "Xã Phước Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29026", "name": "xã Long Mỹ", "district": "Giồng Trôm", "currentUnit": "Xã Phước Long", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29029", "name": "xã Tân Hào", "district": "Giồng Trôm", "currentUnit": "Xã Tân Hào", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29032", "name": "xã Bình Thành", "district": "Giồng Trôm", "currentUnit": "Xã Giồng Trôm", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29035", "name": "xã Tân Thanh", "district": "Giồng Trôm", "currentUnit": "Xã Hưng Nhượng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29038", "name": "xã Tân Lợi Thạnh", "district": "Giồng Trôm", "currentUnit": "Xã Tân Hào", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29041", "name": "xã Thạnh Phú Đông", "district": "Giồng Trôm", "currentUnit": "Xã Tân Hào", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29044", "name": "xã Hưng Nhượng", "district": "Giồng Trôm", "currentUnit": "Xã Hưng Nhượng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "834", "maXa": "29047", "name": "xã Hưng Lễ", "district": "Giồng Trôm", "currentUnit": "Xã Hưng Nhượng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29050", "name": "Thị trấn Bình Đại", "district": "Bình Đại", "currentUnit": "Xã Bình Đại", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29053", "name": "xã Tam Hiệp", "district": "Bình Đại", "currentUnit": "Xã Phú Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29056", "name": "xã Long Định", "district": "Bình Đại", "currentUnit": "Xã Phú Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29059", "name": "xã Long Hòa", "district": "Bình Đại", "currentUnit": "Xã Châu Hưng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29062", "name": "xã Phú Thuận", "district": "Bình Đại", "currentUnit": "Xã Phú Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29065", "name": "xã Vang Quới Tây", "district": "Bình Đại", "currentUnit": "Xã Lộc Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29068", "name": "xã Vang Quới Đông", "district": "Bình Đại", "currentUnit": "Xã Lộc Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29071", "name": "xã Châu Hưng", "district": "Bình Đại", "currentUnit": "Xã Châu Hưng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29074", "name": "xã Phú Vang", "district": "Bình Đại", "currentUnit": "Xã Lộc Thuận", "routeNote": "qua lớp 148: Phú Vang nhập Lộc Thuận (2024), sau đó vào Lộc Thuận mới (2025)", "mapped": true}, {"maHuyen": "835", "maXa": "29077", "name": "xã Lộc Thuận", "district": "Bình Đại", "currentUnit": "Xã Lộc Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29080", "name": "xã Định Trung", "district": "Bình Đại", "currentUnit": "Xã Thạnh Trị", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29083", "name": "xã Thới Lai", "district": "Bình Đại", "currentUnit": "Xã Châu Hưng", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29086", "name": "xã Bình Thới", "district": "Bình Đại", "currentUnit": "Xã Bình Đại", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29089", "name": "xã Phú Long", "district": "Bình Đại", "currentUnit": "Xã Thạnh Trị", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29092", "name": "xã Bình Thắng", "district": "Bình Đại", "currentUnit": "Xã Bình Đại", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29095", "name": "xã Thạnh Trị", "district": "Bình Đại", "currentUnit": "Xã Thạnh Trị", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29098", "name": "xã Đại Hòa Lộc", "district": "Bình Đại", "currentUnit": "Xã Thạnh Phước", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29101", "name": "xã Thừa Đức", "district": "Bình Đại", "currentUnit": "Xã Thới Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29104", "name": "xã Thạnh Phước", "district": "Bình Đại", "currentUnit": "Xã Thạnh Phước", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "835", "maXa": "29107", "name": "xã Thới Thuận", "district": "Bình Đại", "currentUnit": "Xã Thới Thuận", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29110", "name": "Thị trấn Ba Tri", "district": "Ba Tri", "currentUnit": "Xã Ba Tri", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29113", "name": "xã Tân Mỹ", "district": "Ba Tri", "currentUnit": "Xã Mỹ Chánh Hòa", "routeNote": "qua lớp 148: Tân Mỹ nhập Mỹ Hòa (2024), sau đó vào Mỹ Chánh Hòa (2025)", "mapped": true}, {"maHuyen": "836", "maXa": "29116", "name": "xã Mỹ Hòa", "district": "Ba Tri", "currentUnit": "Xã Mỹ Chánh Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29119", "name": "xã Tân Xuân", "district": "Ba Tri", "currentUnit": "Xã Tân Xuân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29122", "name": "xã Mỹ Chánh", "district": "Ba Tri", "currentUnit": "Xã Mỹ Chánh Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29125", "name": "xã Bảo Thạnh", "district": "Ba Tri", "currentUnit": "Xã Bảo Thạnh", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29128", "name": "xã An Phú Trung", "district": "Ba Tri", "currentUnit": "Xã An Ngãi Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29131", "name": "xã Mỹ Thạnh", "district": "Ba Tri", "currentUnit": "Xã An Ngãi Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29134", "name": "xã Mỹ Nhơn", "district": "Ba Tri", "currentUnit": "Xã Mỹ Chánh Hòa", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29137", "name": "xã Phước Ngãi", "district": "Ba Tri", "currentUnit": "Xã Tân Xuân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29143", "name": "xã An Ngãi Trung", "district": "Ba Tri", "currentUnit": "Xã An Ngãi Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29146", "name": "xã Phú Lễ", "district": "Ba Tri", "currentUnit": "Xã Tân Xuân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29149", "name": "xã An Bình Tây", "district": "Ba Tri", "currentUnit": "Xã Ba Tri", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29152", "name": "xã Bảo Thuận", "district": "Ba Tri", "currentUnit": "Xã Bảo Thạnh", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29155", "name": "xã Tân Hưng", "district": "Ba Tri", "currentUnit": "Xã An Hiệp", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29158", "name": "xã An Ngãi Tây", "district": "Ba Tri", "currentUnit": "Xã An Hiệp", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29161", "name": "xã An Hiệp", "district": "Ba Tri", "currentUnit": "Xã An Hiệp", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29164", "name": "xã Vĩnh Hòa", "district": "Ba Tri", "currentUnit": "Xã Ba Tri", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29167", "name": "xã Tân Thủy", "district": "Ba Tri", "currentUnit": "Xã Tân Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29170", "name": "xã Vĩnh An", "district": "Ba Tri", "currentUnit": "Xã Ba Tri", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29173", "name": "xã An Đức", "district": "Ba Tri", "currentUnit": "Xã Ba Tri", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29176", "name": "xã An Hòa Tây", "district": "Ba Tri", "currentUnit": "Xã Tân Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "836", "maXa": "29179", "name": "Thị trấn Tiệm Tôm", "district": "Ba Tri", "currentUnit": "Xã Tân Thủy", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29182", "name": "Thị trấn Thạnh Phú", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29185", "name": "xã Phú Khánh", "district": "Thạnh Phú", "currentUnit": "Xã Đại Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29188", "name": "xã Đại Điền", "district": "Thạnh Phú", "currentUnit": "Xã Đại Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29191", "name": "xã Quới Điền", "district": "Thạnh Phú", "currentUnit": "Xã Quới Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29194", "name": "xã Vĩnh Thành", "district": "Chợ Lách", "currentUnit": "Xã Vĩnh Thành", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29197", "name": "xã Mỹ Hưng", "district": "Thạnh Phú", "currentUnit": "Xã Quới Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29200", "name": "xã An Thạnh", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29203", "name": "xã Thới Thạnh", "district": "Thạnh Phú", "currentUnit": "Xã Đại Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29206", "name": "xã Hòa Lợi", "district": "Thạnh Phú", "currentUnit": "Xã Quới Điền", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29209", "name": "xã An Điền", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Hải", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29212", "name": "xã Bình Thạnh", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29215", "name": "xã An Thuận", "district": "Thạnh Phú", "currentUnit": "Xã An Qui", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29218", "name": "xã An Quy", "district": "Thạnh Phú", "currentUnit": "Xã An Qui", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29221", "name": "xã Thạnh Hải", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Hải", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29224", "name": "xã An Nhơn", "district": "Thạnh Phú", "currentUnit": "Xã An Qui", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29227", "name": "xã Giao Thạnh", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phong", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29230", "name": "xã Thạnh Phong", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phong", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "837", "maXa": "29233", "name": "xã Mỹ An", "district": "Thạnh Phú", "currentUnit": "Xã Thạnh Phú", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28889", "name": "xã Phú Mỹ", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Phước Mỹ Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28901", "name": "xã Hưng Khánh Trung A", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Hưng Khánh Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28906", "name": "xã Thanh Tân", "district": "Mỏ Cày Bắc", "currentUnit": "Phường Bến Tre", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28909", "name": "xã Thạnh Ngãi", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Phước Mỹ Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28912", "name": "xã Tân Phú Tây", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Phước Mỹ Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28915", "name": "Thị trấn Phước Mỹ Trung", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Phước Mỹ Trung", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28918", "name": "xã Tân Thành Bình", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Tân Thành Bình", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28921", "name": "xã Thành An", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Tân Thành Bình", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28924", "name": "xã Hòa Lộc", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Tân Thành Bình", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28927", "name": "xã Tân Thanh Tây", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Nhuận Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28933", "name": "xã Tân Bình", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Tân Thành Bình", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28936", "name": "xã Nhuận Phú Tân", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Nhuận Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}, {"maHuyen": "838", "maXa": "28948", "name": "xã Khánh Thạnh Tân", "district": "Mỏ Cày Bắc", "currentUnit": "Xã Nhuận Phú Tân", "routeNote": "trực tiếp theo NQ 1687/2025", "mapped": true}]
+[
+  {
+    "maHuyen": "829",
+    "maXa": "28756",
+    "name": "Phường Phú Khương",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Phú Khương",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28757",
+    "name": "Phường Phú Tân",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28759",
+    "name": "Phường 8",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Phú Khương",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28762",
+    "name": "Phường 6",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Sơn Đông",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28765",
+    "name": "Phường 4",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "qua lớp 148 theo NQ 1237/2024 rồi đến 48 đơn vị năm 2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28768",
+    "name": "Phường 5",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "qua lớp 148 theo NQ 1237/2024 rồi đến 48 đơn vị năm 2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28777",
+    "name": "Phường An Hội",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28780",
+    "name": "Phường 7",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Bến Tre",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28783",
+    "name": "xã Sơn Đông",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Sơn Đông",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28786",
+    "name": "xã Phú Hưng",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Phú Khương",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28789",
+    "name": "xã Bình Phú",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Bến Tre",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28792",
+    "name": "xã Mỹ Thạnh An",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28795",
+    "name": "xã Nhơn Thạnh",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường Phú Khương",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "829",
+    "maXa": "28798",
+    "name": "xã Phú Nhuận",
+    "district": "Thành phố Bến Tre",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28801",
+    "name": "Thị trấn Châu Thành",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28804",
+    "name": "xã Tân Thạch",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28807",
+    "name": "xã Quới Sơn",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Giao Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28810",
+    "name": "xã An Khánh",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "qua lớp 148: An Khánh nhập thị trấn Châu Thành (2024), sau đó vào Phú Túc (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28813",
+    "name": "xã Giao Long",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Giao Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28819",
+    "name": "xã Phú Túc",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28822",
+    "name": "xã Phú Đức",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tân Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28825",
+    "name": "xã Phú An Hòa",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Giao Long",
+    "routeNote": "qua lớp 148: Phú An Hòa nhập An Phước (2024), sau đó vào Giao Long (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28828",
+    "name": "xã An Phước",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Giao Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28831",
+    "name": "xã Tam Phước",
+    "district": "Châu Thành",
+    "currentUnit": "Phường Sơn Đông",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28834",
+    "name": "xã Thành Triệu",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tiên Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28837",
+    "name": "xã Tường Đa",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28840",
+    "name": "xã Tân Phú",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tân Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28843",
+    "name": "xã Quới Thành",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tiên Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28846",
+    "name": "xã Phước Thạnh",
+    "district": "Châu Thành",
+    "currentUnit": "Phường Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28849",
+    "name": "xã An Hóa",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Giao Long",
+    "routeNote": "qua lớp 148: An Hóa nhập An Phước (2024), sau đó vào Giao Long (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28852",
+    "name": "xã Tiên Long",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tân Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28855",
+    "name": "xã An Hiệp",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "qua lớp 148: An Hiệp nhập Tường Đa (2024), sau đó vào Phú Túc (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28858",
+    "name": "xã Hữu Định",
+    "district": "Châu Thành",
+    "currentUnit": "Phường Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28861",
+    "name": "Thị trấn Tiên Thủy",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Tiên Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "831",
+    "maXa": "28864",
+    "name": "xã Sơn Hòa",
+    "district": "Châu Thành",
+    "currentUnit": "Xã Phú Túc",
+    "routeNote": "qua lớp 148: Sơn Hòa nhập Tường Đa (2024), sau đó vào Phú Túc (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28870",
+    "name": "Thị trấn Chợ Lách",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Chợ Lách",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28873",
+    "name": "xã Phú Phụng",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Phú Phụng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28876",
+    "name": "xã Sơn Định",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Phú Phụng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28879",
+    "name": "xã Vĩnh Bình",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Phú Phụng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28882",
+    "name": "xã Hòa Nghĩa",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Chợ Lách",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28885",
+    "name": "xã Long Thới",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Chợ Lách",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28888",
+    "name": "xã Phú Sơn",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Vĩnh Thành",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28891",
+    "name": "xã Tân Thiềng",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Vĩnh Thành",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28894",
+    "name": "xã Vĩnh Thành",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Vĩnh Thành",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28897",
+    "name": "xã Vĩnh Hòa",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Hưng Khánh Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "832",
+    "maXa": "28900",
+    "name": "xã Hưng Khánh Trung B",
+    "district": "Chợ Lách",
+    "currentUnit": "Xã Hưng Khánh Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28903",
+    "name": "Thị trấn Mỏ Cày",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Mỏ Cày",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28930",
+    "name": "xã Định Thủy",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Đồng Khởi",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28939",
+    "name": "xã Đa Phước Hội",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Mỏ Cày",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28940",
+    "name": "xã Tân Hội",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Mỏ Cày",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28942",
+    "name": "xã Phước Hiệp",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Đồng Khởi",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28945",
+    "name": "xã Bình Khánh",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Đồng Khởi",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28951",
+    "name": "xã An Thạnh",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Mỏ Cày",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28957",
+    "name": "xã An Định",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã An Định",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28960",
+    "name": "xã Thành Thới B",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Thành Thới",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28963",
+    "name": "xã Tân Trung",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã An Định",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28966",
+    "name": "xã An Thới",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Thành Thới",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28969",
+    "name": "xã Thành Thới A",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Thành Thới",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28972",
+    "name": "xã Minh Đức",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã An Định",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28975",
+    "name": "xã Ngãi Đăng",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Hương Mỹ",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28978",
+    "name": "xã Cẩm Sơn",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Hương Mỹ",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "833",
+    "maXa": "28981",
+    "name": "xã Hương Mỹ",
+    "district": "Mỏ Cày Nam",
+    "currentUnit": "Xã Hương Mỹ",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "28984",
+    "name": "Thị trấn Giồng Trôm",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Giồng Trôm",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "28987",
+    "name": "xã Phong Nẫm",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Lương Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "28993",
+    "name": "xã Mỹ Thạnh",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Lương Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "28996",
+    "name": "xã Châu Hòa",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Châu Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "28999",
+    "name": "xã Lương Hòa",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Lương Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29002",
+    "name": "xã Lương Quới",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Châu Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29005",
+    "name": "xã Lương Phú",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Lương Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29008",
+    "name": "xã Châu Bình",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Châu Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29011",
+    "name": "xã Thuận Điền",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Lương Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29014",
+    "name": "xã Sơn Phú",
+    "district": "Giồng Trôm",
+    "currentUnit": "Phường An Hội",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29017",
+    "name": "xã Bình Hoà",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Giồng Trôm",
+    "routeNote": "trực tiếp theo chuỗi sáp nhập, khác biệt do chính tả nguồn",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29020",
+    "name": "xã Phước Long",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Phước Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29023",
+    "name": "xã Hưng Phong",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Phước Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29026",
+    "name": "xã Long Mỹ",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Phước Long",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29029",
+    "name": "xã Tân Hào",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Tân Hào",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29032",
+    "name": "xã Bình Thành",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Giồng Trôm",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29035",
+    "name": "xã Tân Thanh",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Hưng Nhượng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29038",
+    "name": "xã Tân Lợi Thạnh",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Tân Hào",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29041",
+    "name": "xã Thạnh Phú Đông",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Tân Hào",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29044",
+    "name": "xã Hưng Nhượng",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Hưng Nhượng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "834",
+    "maXa": "29047",
+    "name": "xã Hưng Lễ",
+    "district": "Giồng Trôm",
+    "currentUnit": "Xã Hưng Nhượng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29050",
+    "name": "Thị trấn Bình Đại",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Bình Đại",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29053",
+    "name": "xã Tam Hiệp",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Phú Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29056",
+    "name": "xã Long Định",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Phú Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29059",
+    "name": "xã Long Hòa",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Châu Hưng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29062",
+    "name": "xã Phú Thuận",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Phú Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29065",
+    "name": "xã Vang Quới Tây",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Lộc Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29068",
+    "name": "xã Vang Quới Đông",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Lộc Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29071",
+    "name": "xã Châu Hưng",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Châu Hưng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29074",
+    "name": "xã Phú Vang",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Lộc Thuận",
+    "routeNote": "qua lớp 148: Phú Vang nhập Lộc Thuận (2024), sau đó vào Lộc Thuận mới (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29077",
+    "name": "xã Lộc Thuận",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Lộc Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29080",
+    "name": "xã Định Trung",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thạnh Trị",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29083",
+    "name": "xã Thới Lai",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Châu Hưng",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29086",
+    "name": "xã Bình Thới",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Bình Đại",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29089",
+    "name": "xã Phú Long",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thạnh Trị",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29092",
+    "name": "xã Bình Thắng",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Bình Đại",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29095",
+    "name": "xã Thạnh Trị",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thạnh Trị",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29098",
+    "name": "xã Đại Hòa Lộc",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thạnh Phước",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29101",
+    "name": "xã Thừa Đức",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thới Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29104",
+    "name": "xã Thạnh Phước",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thạnh Phước",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "835",
+    "maXa": "29107",
+    "name": "xã Thới Thuận",
+    "district": "Bình Đại",
+    "currentUnit": "Xã Thới Thuận",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29110",
+    "name": "Thị trấn Ba Tri",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Ba Tri",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29113",
+    "name": "xã Tân Mỹ",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Mỹ Chánh Hòa",
+    "routeNote": "qua lớp 148: Tân Mỹ nhập Mỹ Hòa (2024), sau đó vào Mỹ Chánh Hòa (2025)",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29116",
+    "name": "xã Mỹ Hòa",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Mỹ Chánh Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29119",
+    "name": "xã Tân Xuân",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Xuân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29122",
+    "name": "xã Mỹ Chánh",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Mỹ Chánh Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29125",
+    "name": "xã Bảo Thạnh",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Bảo Thạnh",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29128",
+    "name": "xã An Phú Trung",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Ngãi Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29131",
+    "name": "xã Mỹ Thạnh",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Ngãi Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29134",
+    "name": "xã Mỹ Nhơn",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Mỹ Chánh Hòa",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29137",
+    "name": "xã Phước Ngãi",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Xuân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29143",
+    "name": "xã An Ngãi Trung",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Ngãi Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29146",
+    "name": "xã Phú Lễ",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Xuân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29149",
+    "name": "xã An Bình Tây",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Ba Tri",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29152",
+    "name": "xã Bảo Thuận",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Bảo Thạnh",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29155",
+    "name": "xã Tân Hưng",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Hiệp",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29158",
+    "name": "xã An Ngãi Tây",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Hiệp",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29161",
+    "name": "xã An Hiệp",
+    "district": "Ba Tri",
+    "currentUnit": "Xã An Hiệp",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29164",
+    "name": "xã Vĩnh Hòa",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Ba Tri",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29167",
+    "name": "xã Tân Thủy",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29170",
+    "name": "xã Vĩnh An",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Ba Tri",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29173",
+    "name": "xã An Đức",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Ba Tri",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29176",
+    "name": "xã An Hòa Tây",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "836",
+    "maXa": "29179",
+    "name": "Thị trấn Tiệm Tôm",
+    "district": "Ba Tri",
+    "currentUnit": "Xã Tân Thủy",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29182",
+    "name": "Thị trấn Thạnh Phú",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29185",
+    "name": "xã Phú Khánh",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Đại Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29188",
+    "name": "xã Đại Điền",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Đại Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29191",
+    "name": "xã Quới Điền",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Quới Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29194",
+    "name": "xã Tân Phong",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Đại Điền",
+    "routeNote": "đối chiếu địa giới GIS.vn và đơn vị tiền thân năm 2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29197",
+    "name": "xã Mỹ Hưng",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Quới Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29200",
+    "name": "xã An Thạnh",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29203",
+    "name": "xã Thới Thạnh",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Đại Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29206",
+    "name": "xã Hòa Lợi",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Quới Điền",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29209",
+    "name": "xã An Điền",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Hải",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29212",
+    "name": "xã Bình Thạnh",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29215",
+    "name": "xã An Thuận",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã An Qui",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29218",
+    "name": "xã An Quy",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã An Qui",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29221",
+    "name": "xã Thạnh Hải",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Hải",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29224",
+    "name": "xã An Nhơn",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã An Qui",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29227",
+    "name": "xã Giao Thạnh",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phong",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29230",
+    "name": "xã Thạnh Phong",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phong",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "837",
+    "maXa": "29233",
+    "name": "xã Mỹ An",
+    "district": "Thạnh Phú",
+    "currentUnit": "Xã Thạnh Phú",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28889",
+    "name": "xã Phú Mỹ",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Phước Mỹ Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28901",
+    "name": "xã Hưng Khánh Trung A",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Hưng Khánh Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28906",
+    "name": "xã Thanh Tân",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Phường Bến Tre",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28909",
+    "name": "xã Thạnh Ngãi",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Phước Mỹ Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28912",
+    "name": "xã Tân Phú Tây",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Phước Mỹ Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28915",
+    "name": "Thị trấn Phước Mỹ Trung",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Phước Mỹ Trung",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28918",
+    "name": "xã Tân Thành Bình",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Tân Thành Bình",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28921",
+    "name": "xã Thành An",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Tân Thành Bình",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28924",
+    "name": "xã Hòa Lộc",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Tân Thành Bình",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28927",
+    "name": "xã Tân Thanh Tây",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Nhuận Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28933",
+    "name": "xã Tân Bình",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Tân Thành Bình",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28936",
+    "name": "xã Nhuận Phú Tân",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Nhuận Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  },
+  {
+    "maHuyen": "838",
+    "maXa": "28948",
+    "name": "xã Khánh Thạnh Tân",
+    "district": "Mỏ Cày Bắc",
+    "currentUnit": "Xã Nhuận Phú Tân",
+    "routeNote": "trực tiếp theo NQ 1687/2025",
+    "mapped": true
+  }
+]

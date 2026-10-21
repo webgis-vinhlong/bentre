@@ -37,3 +37,11 @@ Bản đồ sử dụng Vietflex và các lớp cùng hệ Vietflex; Leaflet là
 GitHub Pages: nhánh `main`, thư mục gốc. Trang: https://webgis-vinhlong.github.io/bentre/ . Có thể chạy cục bộ với một HTTP server tĩnh.
 
 Long Ngo @2026. Mã nguồn theo giấy phép MIT. Điều kiện sử dụng dữ liệu và nền bản đồ thuộc từng nguồn; không tự gán MIT cho dữ liệu GIS.vn.
+
+## So sánh đơn vị tiền thân
+
+Khi chọn một trong 48 đơn vị năm 2025, website giữ viền đơn vị hiện tại và hiển thị các địa giới trong bộ lưu trữ 157 bằng màu riêng, kèm tên cũ và danh sách màu trong hồ sơ. Có nút bật/tắt ranh giới và nhãn; chọn tên cũ để phóng đến địa giới tương ứng. Với các thay đổi trung gian năm 2024, danh sách đơn vị tiền thân trực tiếp được tách khỏi các tên/địa giới lưu trữ cũ hơn. Không hợp nhất hay chỉnh hình học để ép hai lớp trùng nhau.
+
+Đối chiếu ưu tiên tên cùng huyện từ danh sách tiền thân, sau đó dùng bảng mã để liên kết các tên cũ hơn. Bản ghi 29194 được sửa từ Vĩnh Thành/Chợ Lách sang Tân Phong/Thạnh Phú → Đại Điền theo thuộc tính địa giới gốc và hồ sơ tiền thân. Hình học gốc được giữ nguyên. Nguồn hiển thị trên giao diện rút gọn thành liên kết gis.vn; thông tin nguồn tải và phiên bản vẫn được giữ trong dữ liệu và tài liệu kỹ thuật.
+
+Logo là nguyên ảnh Bến Tre–Đồng Khởi do người dùng cung cấp ngày 21/10/2026, lưu tại assets/logo-bentre.png.
