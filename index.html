@@ -221,7 +221,7 @@ async function loadHistoric(){
 function renderHistoric(){
  const q=normalizeName($('search').value),d=$('district').value;
  const filtered=historicUnits.filter(f=>{const p=f.properties;const a=historicMapping(f);return(!q||normalizeName(historicName(f)+' '+p.ma_xa+' '+(a?.currentUnit||'')).includes(q))&&(!d||String(p.ma_huyen)===d)&&(mode==='all'||p.loai===mode)});
- $('count').textContent=filtered.length+' / '+historicUnits.length+' địa danh lưu trữ';$('list').replaceChildren();
+ $('count').textContent=historicUnits.length?filtered.length+' / '+historicUnits.length+' địa danh lưu trữ':'Đang tải 157 địa danh lưu trữ…';$('list').replaceChildren();
  if(!filtered.length){const box=el('div','empty',historicUnits.length?'Không có kết quả. Thử tên khác hoặc xóa bộ lọc.':'Đang tải địa giới lưu trữ…');const clear=el('button','','Xóa bộ lọc');clear.onclick=resetFilters;box.append(el('p'),clear);$('list').append(box)}
  for(const f of filtered){const p=f.properties;const row=el('button','unit');row.dataset.name=String(p.ma_xa);row.classList.toggle('active',selectedName==='old:'+p.ma_xa);row.setAttribute('aria-pressed',String(selectedName==='old:'+p.ma_xa));row.append(el('strong','',historicName(f)),el('small','',p.ten_huyen+' · Mã '+p.ma_xa),el('small','boundary-status ready','✓ Địa giới GIS.vn · lưu trữ'));row.onclick=()=>selectHistoric(f);$('list').append(row)}
 }
@@ -235,6 +235,7 @@ function setEra(era,openList=true){
  activeEra=era;setSourceCredit();$('boundaryEra').value=era;++boundaryRequest;selectedName='';window.__benTreUserSelected=false;
  if(currentPolygon){map.removeLayer(currentPolygon);currentPolygon=null}map.closePopup();map.removeLayer(boundaryGroup);map.removeLayer(historicGroup);
  $('detail').hidden=true;document.querySelector('.sidebar').classList.remove('profile-open');$('clearSelection').hidden=true;
+ $('info').textContent=era==='historic'?'Đang xem lớp địa giới lưu trữ 157 đơn vị · Nguồn GIS.vn.':'Đang xem lớp địa giới 48 đơn vị năm 2025.';
  $('switchEra').textContent=era==='historic'?'157 · Lưu trữ':'48 · Năm 2025';$('legendEra').textContent=era==='historic'?'Địa giới lưu trữ · 157 đơn vị':'Địa giới năm 2025 · 48 đơn vị';
  $('activeSource').replaceChildren();const a=el('a','',era==='historic'?'Nguồn GIS.vn · bộ địa giới lưu trữ 157 đơn vị':'Nguồn địa giới 2025 · vietnamese-provinces-database');a.href=era==='historic'?'https://gis.vn/ban-do-hanh-chinh-viet-nam-truoc-01-07':'https://github.com/thanglequoc/vietnamese-provinces-database';a.target='_blank';a.rel='noopener';$('activeSource').append(a);
  if(era==='historic'){historicGroup.addTo(map);loadHistoric()}else{boundaryGroup.addTo(map);loadAllBoundaries()}
