@@ -1,0 +1,246 @@
+{
+  "source": "thanglequoc/vietnamese-provinces-database",
+  "version": "master json/geojson/86_vinh_long/wards",
+  "features": [
+    {
+      "name": "Phường An Hội",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28777_an_hoi.geojson",
+      "match": true
+    },
+    {
+      "name": "Phường Phú Khương",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28756_phu_khuong.geojson",
+      "match": true
+    },
+    {
+      "name": "Phường Bến Tre",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28789_ben_tre.geojson",
+      "match": true
+    },
+    {
+      "name": "Phường Sơn Đông",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28783_son_dong.geojson",
+      "match": true
+    },
+    {
+      "name": "Phường Phú Tân",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28858_phu_tan.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Phú Túc",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28810_phu_tuc.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Giao Long",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28807_giao_long.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tiên Thủy",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28861_tien_thuy.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tân Phú",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28840_tan_phu.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Phú Phụng",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28879_phu_phung.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Vĩnh Thành",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28894_vinh_thanh.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Chợ Lách",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28870_cho_lach.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Hưng Khánh Trung",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28901_hung_khanh_trung.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Phước Mỹ Trung",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28915_phuoc_my_trung.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tân Thành Bình",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28921_tan_thanh_binh.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Nhuận Phú Tân",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28948_nhuan_phu_tan.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Mỏ Cày",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28903_mo_cay.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Đồng Khởi",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28945_dong_khoi.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thành Thới",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28969_thanh_thoi.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã An Định",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28957_an_dinh.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Hương Mỹ",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28981_huong_my.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Đại Điền",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29194_dai_dien.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Quới Điền",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29191_quoi_dien.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thạnh Phú",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29182_thanh_phu.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã An Qui",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29224_an_qui.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thạnh Hải",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29221_thanh_hai.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thạnh Phong",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29227_thanh_phong.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tân Thủy",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29167_tan_thuy.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Bảo Thạnh",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29125_bao_thanh.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tân Xuân",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29137_tan_xuan.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Ba Tri",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29110_ba_tri.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Mỹ Chánh Hòa",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29122_my_chanh_hoa.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã An Ngãi Trung",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29143_an_ngai_trung.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã An Hiệp",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29158_an_hiep.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Hưng Nhượng",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29044_hung_nhuong.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Tân Hào",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29029_tan_hao.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Giồng Trôm",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28984_giong_trom.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Phước Long",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29020_phuoc_long.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Lương Phú",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28993_luong_phu.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Châu Hòa",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28996_chau_hoa.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Lương Hòa",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/28987_luong_hoa.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Bình Đại",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29050_binh_dai.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Lộc Thuận",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29077_loc_thuan.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Châu Hưng",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29083_chau_hung.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Phú Thuận",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29062_phu_thuan.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thạnh Trị",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29089_thanh_tri.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thạnh Phước",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29104_thanh_phuoc.geojson",
+      "match": true
+    },
+    {
+      "name": "Xã Thới Thuận",
+      "url": "https://raw.githubusercontent.com/thanglequoc/vietnamese-provinces-database/master/json/geojson/86_vinh_long/wards/29107_thoi_thuan.geojson",
+      "match": true
+    }
+  ]
+}
